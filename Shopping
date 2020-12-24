@@ -75,33 +75,4 @@ public class Shopping {
 						System.out.println(item + " was not found in your shopping cart.");
 					}
 					break;
-				case 3:
-					//view the items in your cart
-					System.out.println(intList);
-					break;
-				case 4:
-					//Exit and add up the total
-					for (int i = 0; i<intList.size(); i++)
-					{
-						item = intList.get(i);
-						total = total + item.intValue();
-					}
-					System.out.println("Total is "+ total);
-					System.out.println("Goodbye");
-					keepGoing = false;
-					break;
-				case 5:
-					
-					intList.clear();
-					break;
-				case 6:
-					
-					keepGoing = false;
-					System.out.println("Goodbye");
-					break;
- 
-				}
-			}
-		}
-	}
-}
+				
